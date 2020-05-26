@@ -11652,19 +11652,15 @@ PN: 336-1160-5-ND</description>
 <parts>
 <part name="U$2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
 <attribute name="CDESC" value="Ethernet"/>
-<attribute name="CNAME" value="Pix Caster"/>
 </part>
 <part name="U$3" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
 <attribute name="CDESC" value="USB"/>
-<attribute name="CNAME" value="Pix Caster"/>
 </part>
 <part name="U$4" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
 <attribute name="CDESC" value="DMX"/>
-<attribute name="CNAME" value="Pix Caster"/>
 </part>
 <part name="U$5" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
-<attribute name="CDESC" value="Periferals"/>
-<attribute name="CNAME" value="Pix Caster"/>
+<attribute name="CDESC" value="SPI"/>
 </part>
 <part name="U1" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="ESP_32_WROVER_I_PKG" device="" package3d_urn="urn:adsk.eagle:package:4432905/4"/>
 <part name="U2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="LD1117S33CTR_DEV" device="LD1117S33CTR" package3d_urn="urn:adsk.eagle:package:8170533/1"/>
@@ -11672,7 +11668,6 @@ PN: 336-1160-5-ND</description>
 <part name="C2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_CAP_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2669409/2" value="10uF-22uF"/>
 <part name="U$1" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
 <attribute name="CDESC" value="ESP32 + Power"/>
-<attribute name="CNAME" value="Pix Caster"/>
 </part>
 <part name="GND1" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="GND" device=""/>
 <part name="GND2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="GND" device=""/>
