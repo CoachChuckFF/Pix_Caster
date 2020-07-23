@@ -11652,15 +11652,19 @@ PN: 336-1160-5-ND</description>
 <parts>
 <part name="U$2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
 <attribute name="CDESC" value="Ethernet"/>
+<attribute name="CNAME" value="Pix Caster"/>
 </part>
 <part name="U$3" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
 <attribute name="CDESC" value="USB"/>
+<attribute name="CNAME" value="Pix Caster"/>
 </part>
 <part name="U$4" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
 <attribute name="CDESC" value="DMX"/>
+<attribute name="CNAME" value="Pix Caster"/>
 </part>
 <part name="U$5" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
-<attribute name="CDESC" value="SPI"/>
+<attribute name="CDESC" value="Periferals"/>
+<attribute name="CNAME" value="Pix Caster"/>
 </part>
 <part name="U1" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="ESP_32_WROVER_I_PKG" device="" package3d_urn="urn:adsk.eagle:package:4432905/4"/>
 <part name="U2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="LD1117S33CTR_DEV" device="LD1117S33CTR" package3d_urn="urn:adsk.eagle:package:8170533/1"/>
@@ -11864,6 +11868,9 @@ PN: 336-1160-5-ND</description>
 <part name="VCC42" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="VCC" device="" value="3.3V"/>
 <part name="R33" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_RES_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2685918/2" value="9K"/>
 <part name="VCC43" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="VCC" device="" value="3.3V"/>
+<part name="U$6" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BLIZZARD_FRAME_DEV" device="">
+<attribute name="CDESC" value="Knob"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -14225,6 +14232,24 @@ Fast Opto</text>
 </instance>
 <instance part="J5" gate="G$1" x="162.56" y="133.35" smashed="yes">
 <attribute name="NAME" x="162.56" y="135.89" size="1.27" layer="94" font="vector"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="U$6" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="CNAME" x="161.29" y="24.13" size="3.81" layer="94" font="vector"/>
+<attribute name="CDESC" x="161.29" y="17.78" size="3.81" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="161.29" y="11.43" size="3.81" layer="94" font="vector"/>
+<attribute name="SHEET" x="182.88" y="5.08" size="3.81" layer="94" font="vector"/>
+<attribute name="CDES" x="217.17" y="11.43" size="3.81" layer="94" font="vector"/>
+<attribute name="CREV" x="217.17" y="5.08" size="3.81" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>
